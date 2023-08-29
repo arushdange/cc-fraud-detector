@@ -5,7 +5,7 @@ from imblearn.under_sampling import RandomUnderSampler
 import joblib
 
 # Direct link to the hosted model file (replace with your link)
-hosted_model_url = "https://raw.githubusercontent.com/arushdange/cc-fraud-detector/blob/main/trained_model.joblib"
+hosted_model_url = "https://github.com/arushdange/cc-fraud-detector/raw/main/trained_model.joblib"
 
 # Load the hosted model
 rf = joblib.load(hosted_model_url)
