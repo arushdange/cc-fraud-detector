@@ -8,7 +8,6 @@ from sklearn.model_selection import train_test_split
 
 # Load your dataset
 csv_url = "https://drive.google.com/uc?export=download&id=18a4d61LXHDWIwYUbuxj9P07QhKD_4LWQ"
-18a4d61LXHDWIwYUbuxj9P07QhKD_4LWQ
 data = pd.read_csv(csv_url)
 
 # Split the data into features (X) and target (y)
