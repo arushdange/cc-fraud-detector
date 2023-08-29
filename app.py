@@ -7,7 +7,8 @@ from sklearn.metrics import roc_auc_score, precision_score, recall_score, f1_sco
 from sklearn.model_selection import train_test_split
 
 # Load your dataset
-csv_url = "https://drive.google.com/file/d/18a4d61LXHDWIwYUbuxj9P07QhKD_4LWQ"
+csv_url = "https://drive.google.com/uc?export=download&id=18a4d61LXHDWIwYUbuxj9P07QhKD_4LWQ"
+18a4d61LXHDWIwYUbuxj9P07QhKD_4LWQ
 data = pd.read_csv(csv_url)
 
 # Split the data into features (X) and target (y)
